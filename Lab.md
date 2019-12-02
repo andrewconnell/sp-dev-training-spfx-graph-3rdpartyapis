@@ -1,6 +1,6 @@
 ## Leverage the Microsoft Graph & 3rd Party APIs
 
-In this lab you work with the SharePoint Framework to communicate with external APIs from the Microsoft Graph and third party REST APIs in your SharePoint Framework project.
+In this lab you work with the SharePoint Framework to communicate with the Microsoft Graph and third party REST APIs in your SharePoint Framework project.
 
 ## In this lab
 
@@ -152,7 +152,7 @@ In this exercise you will create a new SPFx project with a single client-side we
         }
         ```
 
-        This method uses the `HttpClient` available from the current SharePoint context and issues an HTTP GET request to the NASA Imagery REST API with the query test of **Apollo 4**. After processing the response to JSON, it is returned to the caller as an untyped `any` object.
+        This method uses the `HttpClient` available from the current SharePoint context and issues an HTTP GET request to the NASA Image REST API with the query test of **Apollo 4**. After processing the response to JSON, it is returned to the caller as an untyped `any` object.
 
     1. Update the contents of the `render()` method to the following code:
 
